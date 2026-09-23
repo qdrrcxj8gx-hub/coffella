@@ -5134,3 +5134,40 @@ a.contact-item:hover {
     }
 
 }
+
+/* =========================================================
+   MOBILE — COFFELLA BAR TITLE FIX
+========================================================= */
+
+@media screen and (max-width: 680px) {
+
+    .bar-title-row {
+        width: 100%;
+        min-width: 0;
+        overflow: visible;
+    }
+
+    .bar-title {
+        width: 100%;
+
+        margin: 0;
+
+        font-size: clamp(54px, 18.2vw, 78px) !important;
+        line-height: .76 !important;
+
+        letter-spacing: -.065em;
+
+        white-space: nowrap;
+    }
+
+    .bar-title span {
+        display: block;
+
+        margin-left: 9%;
+
+        font-size: 1em;
+
+        white-space: nowrap;
+    }
+
+}
